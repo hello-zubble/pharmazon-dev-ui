@@ -16,12 +16,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "ui-bg-accent-primary",
-        secondary: "ui-bg-accent-secondary",
-        primaryoutline: "ui-bg-transparent ui-border ui-border-accent-primary ui-text-accent-primary",
-        outline: "ui-bg-transparent ui-border ui-border-accent-primary ui-text-accent-primary",
-        secondarydestructive: "ui-bg-red-500",
-        ghost: "ui-bg-transparent ui-text-accent-primary",
+        primary: "ui-bg-_accent-primary ui-text-_accent-primary-content",
+        secondary: "ui-bg-_accent-secondary ui-text-_accent-secondary-content",
+        primary_outline: "ui-bg-transparent ui-border ui-border-_accent-primary ui-text-_accent-primary",
+        secondary_outline: "ui-bg-transparent ui-border ui-border-_accent-secondary ui-text-_accent-secondary",
+        destructive: "ui-bg-red-500",
+        ghost: "ui-bg-transparent ui-text-_accent-primary",
       },
     },
     defaultVariants: {

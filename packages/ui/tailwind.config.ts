@@ -6,7 +6,9 @@ const config: Pick<Config, "prefix" | "presets" | "content" | "plugins"> = {
   content: ["./src/**/*.tsx"],
   prefix: "ui-",
   presets: [sharedConfig],
-  plugins: [nextui()],
+  plugins: [nextui({
+    addCommonColors: true,
+  })],
 };
 
 export default config;

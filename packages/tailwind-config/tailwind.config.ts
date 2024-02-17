@@ -5,15 +5,15 @@ const config: Omit<Config, "content"> = {
   theme: {
     extend: {
       colors: {
-        primary: {
+        _primary: {
           DEFAULT: "#1D2939",
           content: "FFF"
         },
-        secondary: {
+        _secondary: {
           DEFAULT: "#816BE3",
           content: "FFF"
         },
-        accent: {
+        _accent: {
           primary: {
             DEFAULT: "#F49819",
             content: "#FFF"

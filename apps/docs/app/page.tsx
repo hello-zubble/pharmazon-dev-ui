@@ -1,3 +1,4 @@
+"use client"
 import Button from "@repo/ui/Button";
 import { Card } from "@repo/ui/card";
 import '@repo/ui/styles.css';
@@ -8,13 +9,14 @@ export default function Home(): JSX.Element {
   }
   return (
     <div>
-      <h1 className="text-3xl text-primary">Pharazon Clinic</h1>
-      <h1 className="text-3xl text-secondary">Pharazon Clinic</h1>
-      <h1 className="text-3xl text-accent-primary">Pharazon Clinic</h1>
-      <h1 className="text-3xl text-accent-secondary">Pharazon Clinic</h1>
+      <h1 className="text-3xl text-_primary">Pharazon Clinic</h1>
+      <h1 className="text-3xl text-_secondary">Pharazon Clinic</h1>
+      <h1 className="text-3xl text-_accent-primary">Pharazon Clinic</h1>
+      <h1 className="text-3xl text-_accent-secondary">Pharazon Clinic</h1>
       <Button onClick={handleClick}>Default</Button>
       <Button variant="secondary">Secondary</Button>
-      <Button variant="outline">Outline</Button>
+      <Button variant="primary_outline">Outline</Button>
+      <Button variant="secondary_outline">Outline</Button>
     </div>
   );
 }
