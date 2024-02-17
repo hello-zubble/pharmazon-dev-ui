@@ -1,5 +1,6 @@
 "use client"
 import Button from "@repo/ui/Button";
+import { MyButton } from "@repo/ui/Button2";
 import { Card } from "@repo/ui/card";
 import '@repo/ui/styles.css';
 
@@ -17,6 +18,10 @@ export default function Home(): JSX.Element {
       <Button variant="secondary">Secondary</Button>
       <Button variant="primary_outline">Outline</Button>
       <Button variant="secondary_outline">Outline</Button>
+
+      <div className="p-10">
+        <MyButton />
+      </div>
     </div>
   );
 }
