@@ -7,7 +7,8 @@
   "exports": {
     "./styles.css": "./dist/index.css",
     "./card": "./src/card.tsx",
-    "./Button": "./src/Button/index.tsx"
+    "./Button": "./src/Button/index.tsx",
+    "./providers": "./src/providers/index.tsx"
   },
   "license": "MIT",
   "scripts": {
@@ -32,8 +33,10 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.0.5",
     "tailwind-merge": "^2.2.1"
   }
 }
